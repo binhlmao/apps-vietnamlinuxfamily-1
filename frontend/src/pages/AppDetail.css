@@ -1,0 +1,305 @@
+.app-detail {
+  padding-bottom: 3rem;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 1.25rem 0 1rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.back-link svg {
+  width: 18px;
+  height: 18px;
+}
+
+.back-link:hover {
+  color: var(--accent);
+}
+
+/* Hero */
+.app-detail-hero {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  padding: 1rem 0 1.5rem;
+}
+
+.app-detail-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.app-detail-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.app-detail-info h1 {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: 1.75rem;
+}
+
+.app-detail-desc {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  margin: 0;
+}
+
+.app-detail-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.app-detail-license {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.app-detail-packages,
+.app-detail-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+}
+
+/* Actions */
+.app-detail-actions {
+  display: flex;
+  gap: 0.75rem;
+  padding: 1rem 0 1.5rem;
+  flex-wrap: wrap;
+}
+
+/* Install block */
+.install-block {
+  background: var(--bg-code);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.install-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.install-command {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+}
+
+.install-command code {
+  color: var(--green-300);
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.9rem;
+}
+
+.install-copy {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: var(--radius-sm);
+  color: rgba(255, 255, 255, 0.7);
+  font-family: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.install-copy svg {
+  width: 14px;
+  height: 14px;
+}
+
+.install-copy:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+/* Detail sections */
+.detail-section {
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--border-light);
+}
+
+.detail-section h2 {
+  margin-bottom: 1rem;
+}
+
+.app-description {
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+/* Reviews */
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.review-card {
+  padding: 1.25rem;
+}
+
+.review-card:hover {
+  transform: none;
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.review-author {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.review-date {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.review-title {
+  margin-bottom: 0.375rem;
+}
+
+.review-content {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.review-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.review-action {
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.25rem 0.5rem;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-family: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-fast);
+}
+
+.review-action svg {
+  width: 14px;
+  height: 14px;
+}
+
+.review-action:hover {
+  background: var(--beige-200);
+  color: var(--accent);
+}
+
+/* Replies */
+.review-replies {
+  margin-top: 0.75rem;
+  padding-left: 1.5rem;
+  border-left: 2px solid var(--border-light);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.reply-card {
+  font-size: 0.85rem;
+}
+
+.reply-card strong {
+  font-size: 0.8rem;
+}
+
+.reply-card p {
+  color: var(--text-secondary);
+  margin: 0.25rem 0;
+}
+
+.reply-date {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-left: 0.5rem;
+}
+
+.reply-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.reply-form .input {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
+}
+
+.login-prompt {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.login-prompt a {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+@media (max-width: 640px) {
+  .app-detail-hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .app-detail-meta {
+    justify-content: center;
+  }
+
+  .app-detail-actions {
+    justify-content: center;
+  }
+}

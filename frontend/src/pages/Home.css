@@ -1,0 +1,104 @@
+.hero {
+  /* background: linear-gradient(135deg, var(--green-700) 0%, var(--green-800) 100%); */
+  padding: 3.5rem 0 3rem;
+  text-align: center;
+  color: white;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.hero-subtitle {
+  font-size: 1.1rem;
+  opacity: 0.85;
+  margin-bottom: 2rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--text-primary);
+}
+
+.hero-search {
+  max-width: 560px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: var(--shadow-lg);
+}
+
+.hero-search input {
+  font-size: 1.05rem;
+  padding: 0.75rem 0;
+}
+
+/* Category pills */
+.category-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.625rem;
+  justify-content: center;
+  padding: 1.75rem 0 0.5rem;
+}
+
+.category-pill {
+  padding: 0.5rem 1.125rem;
+  border-radius: var(--radius-full);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  background: var(--bg-card);
+  border: 1.5px solid var(--border-light);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+}
+
+.category-pill:hover {
+  border-color: var(--pill-color, var(--accent));
+  color: var(--pill-color, var(--accent));
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Tag section */
+.tag-section {
+  padding: 1rem 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Empty state */
+.empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.empty-state h3 {
+  color: var(--text-secondary);
+}
+
+.empty-state p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 2.5rem 0 2rem;
+  }
+
+  .hero-title {
+    font-size: 1.75rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+  }
+}

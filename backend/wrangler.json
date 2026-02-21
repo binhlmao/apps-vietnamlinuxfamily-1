@@ -1,0 +1,30 @@
+{
+	"name": "vnlf-app-explorer-api",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-02-20",
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "vnlf-db",
+			"database_id": "13e452c9-1dc3-4130-83ca-e67ff55a5ff9"
+		}
+	],
+	"r2_buckets": [
+		{
+			"binding": "MEDIA",
+			"bucket_name": "vnlf-app-media"
+		}
+	],
+	"kv_namespaces": [
+		{
+			"binding": "CACHE",
+			"id": "82a87aab8e1d442fa17fb0198a4c26b4"
+		}
+	],
+	"observability": {
+		"logs": {
+			"enabled": false,
+			"invocation_logs": true
+		}
+	}
+}

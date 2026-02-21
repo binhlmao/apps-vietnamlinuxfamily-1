@@ -1,0 +1,136 @@
+.profile {
+  padding-bottom: 3rem;
+}
+
+.profile-login-prompt {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+.profile-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: var(--accent-light);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.profile-info h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.125rem;
+}
+
+.profile-email {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+  margin: 0 0 0.375rem;
+}
+
+.profile-section {
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--border-light);
+}
+
+.profile-section h2 {
+  margin-bottom: 1rem;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.section-title h2 {
+  margin-bottom: 0;
+}
+
+.profile-apps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.profile-app-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.25rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.profile-app-item h4 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.profile-app-item p {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  margin: 0;
+}
+
+.profile-app-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.profile-reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.profile-review-card {
+  padding: 1rem 1.25rem;
+}
+
+.profile-review-card:hover {
+  transform: none;
+}
+
+.profile-review-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.375rem;
+  flex-wrap: wrap;
+}
+
+.profile-review-date {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.profile-review-card p {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.text-muted {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 640px) {
+  .profile-header {
+    flex-direction: column;
+    text-align: center;
+  }
+}

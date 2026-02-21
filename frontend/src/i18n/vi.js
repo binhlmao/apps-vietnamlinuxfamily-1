@@ -1,0 +1,121 @@
+const vi = {
+  // Header
+  appName: 'VNLF App Explorer',
+  login: 'Đăng nhập',
+  register: 'Đăng ký',
+  logout: 'Đăng xuất',
+  submitApp: 'Đăng ứng dụng',
+  profile: 'Hồ sơ',
+  myApps: 'Ứng dụng của tôi',
+  myReviews: 'Đánh giá của tôi',
+
+  // Hero
+  heroTitle: 'Khám phá ứng dụng Linux',
+  heroSubtitle: 'Tìm kiếm, chia sẻ và đánh giá ứng dụng yêu thích trên Linux',
+  searchPlaceholder: 'Tìm ứng dụng, danh mục hoặc tag...',
+
+  // Collections
+  featured: 'Nổi bật',
+  trending: 'Xu hướng',
+  popular: 'Phổ biến',
+  newest: 'Mới nhất',
+  topRated: 'Đánh giá cao',
+  viewAll: 'Xem tất cả',
+
+  // Browse
+  browse: 'Duyệt',
+  allCategories: 'Tất cả danh mục',
+  sortBy: 'Sắp xếp',
+  sortNewest: 'Mới nhất',
+  sortTopRated: 'Đánh giá cao',
+  sortMostReviewed: 'Nhiều đánh giá',
+  sortAZ: 'A → Z',
+  noResults: 'Không tìm thấy ứng dụng nào',
+  appFound: 'Apps được tìm thấy',
+  tryDifferent: 'Hãy thử từ khóa khác hoặc bỏ bớt bộ lọc',
+
+  // App Detail
+  description: 'Mô tả',
+  screenshots: 'Ảnh chụp màn hình',
+  installCommand: 'Lệnh cài đặt',
+  copyCommand: 'Sao chép',
+  copied: 'Đã sao chép!',
+  website: 'Trang web',
+  sourceCode: 'Mã nguồn',
+  download: 'Tải xuống',
+  license: 'Giấy phép',
+  packageTypes: 'Loại gói',
+  submittedBy: 'Đăng bởi',
+  verified: 'Đã xác minh',
+  editApp: 'Chỉnh sửa',
+
+  // Reviews
+  reviews: 'Đánh giá',
+  writeReview: 'Viết đánh giá',
+  reviewTitle: 'Tiêu đề',
+  reviewContent: 'Nội dung đánh giá',
+  reviewPlaceholder: 'Chia sẻ trải nghiệm của bạn với ứng dụng này...',
+  submitReview: 'Gửi đánh giá',
+  reply: 'Trả lời',
+  replyPlaceholder: 'Viết phản hồi...',
+  submitReply: 'Gửi',
+  helpful: 'Hữu ích',
+  flag: 'Báo cáo',
+  noReviews: 'Chưa có đánh giá nào',
+  beFirst: 'Hãy là người đầu tiên đánh giá ứng dụng này!',
+  loginToReview: 'Đăng nhập để viết đánh giá',
+  rating: 'Xếp hạng',
+  reviewCount: '{count} đánh giá',
+
+  // Submit App
+  submitAppTitle: 'Đăng ứng dụng mới',
+  appName_field: 'Tên ứng dụng',
+  shortDesc: 'Mô tả ngắn',
+  shortDescHint: 'Tối đa 120 ký tự',
+  fullDesc: 'Mô tả đầy đủ',
+  fullDescHint: 'Hỗ trợ Markdown',
+  category: 'Danh mục',
+  selectCategory: 'Chọn danh mục',
+  tags: 'Tags',
+  tagsHint: 'Nhập tag và nhấn Enter (tối đa 10)',
+  iconUpload: 'Icon ứng dụng',
+  screenshotUpload: 'Ảnh chụp màn hình',
+  dragOrClick: 'Kéo thả hoặc nhấn để tải lên',
+  preview: 'Xem trước',
+  submit: 'Đăng',
+  cancel: 'Hủy',
+  next: 'Tiếp theo',
+  back: 'Quay lại',
+  step: 'Bước',
+
+  // Auth
+  email: 'Email',
+  password: 'Mật khẩu',
+  confirmPassword: 'Xác nhận mật khẩu',
+  displayName: 'Tên hiển thị',
+  forgotPassword: 'Quên mật khẩu?',
+  noAccount: 'Chưa có tài khoản?',
+  hasAccount: 'Đã có tài khoản?',
+  registerNow: 'Đăng ký ngay',
+  loginNow: 'Đăng nhập ngay',
+  verifyEmail: 'Xác thực email',
+  verifyEmailMsg: 'Chúng tôi đã gửi email xác thực đến {email}. Vui lòng kiểm tra hộp thư.',
+  resetPassword: 'Đặt lại mật khẩu',
+  resetPasswordMsg: 'Nhập email để nhận link đặt lại mật khẩu.',
+
+  // Footer
+  builtFor: 'Được xây dựng cho cộng đồng',
+  aboutVNLF: 'Về VNLF',
+  privacyPolicy: 'Chính sách bảo mật',
+  termsOfService: 'Điều khoản sử dụng',
+
+  // General
+  loading: 'Đang tải...',
+  error: 'Có lỗi xảy ra',
+  save: 'Lưu',
+  delete: 'Xóa',
+  confirm: 'Xác nhận',
+  language: 'Ngôn ngữ',
+}
+
+export default vi

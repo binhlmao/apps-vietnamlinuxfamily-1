@@ -1,0 +1,23 @@
+{
+  "name": "vnlf-app-explorer-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:init": "wrangler d1 execute vnlf-db --local --file=schema.sql",
+    "db:seed": "wrangler d1 execute vnlf-db --local --file=seed.sql",
+    "db:migrate": "wrangler d1 execute vnlf-db --remote --file=schema.sql",
+    "db:seed:remote": "wrangler d1 execute vnlf-db --remote --file=seed.sql"
+  },
+  "dependencies": {
+    "hono": "^4.7.0",
+    "resend": "^4.0.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250214.0",
+    "wrangler": "^4.0.0"
+  }
+}

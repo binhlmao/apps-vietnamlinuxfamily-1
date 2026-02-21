@@ -1,0 +1,121 @@
+const en = {
+  // Header
+  appName: 'VNLF App Explorer',
+  login: 'Login',
+  register: 'Register',
+  logout: 'Logout',
+  submitApp: 'Submit App',
+  profile: 'Profile',
+  myApps: 'My Apps',
+  myReviews: 'My Reviews',
+
+  // Hero
+  heroTitle: 'Discover Linux Apps',
+  heroSubtitle: 'Find, share, and review your favorite Linux applications',
+  searchPlaceholder: 'Search apps, categories, or tags...',
+
+  // Collections
+  featured: 'Featured',
+  trending: 'Trending',
+  popular: 'Popular',
+  newest: 'Newest',
+  topRated: 'Top Rated',
+  viewAll: 'View All',
+
+  // Browse
+  browse: 'Browse',
+  allCategories: 'All Categories',
+  sortBy: 'Sort by',
+  sortNewest: 'Newest',
+  sortTopRated: 'Top Rated',
+  sortMostReviewed: 'Most Reviewed',
+  sortAZ: 'A → Z',
+  noResults: 'No apps found',
+  appFound: 'Apps found',
+  tryDifferent: 'Try different keywords or remove some filters',
+
+  // App Detail
+  description: 'Description',
+  screenshots: 'Screenshots',
+  installCommand: 'Install Command',
+  copyCommand: 'Copy',
+  copied: 'Copied!',
+  website: 'Website',
+  sourceCode: 'Source Code',
+  download: 'Download',
+  license: 'License',
+  packageTypes: 'Package Types',
+  submittedBy: 'Submitted by',
+  verified: 'Verified',
+  editApp: 'Edit',
+
+  // Reviews
+  reviews: 'Reviews',
+  writeReview: 'Write a Review',
+  reviewTitle: 'Title',
+  reviewContent: 'Review Content',
+  reviewPlaceholder: 'Share your experience with this app...',
+  submitReview: 'Submit Review',
+  reply: 'Reply',
+  replyPlaceholder: 'Write a reply...',
+  submitReply: 'Submit',
+  helpful: 'Helpful',
+  flag: 'Report',
+  noReviews: 'No reviews yet',
+  beFirst: 'Be the first to review this app!',
+  loginToReview: 'Login to write a review',
+  rating: 'Rating',
+  reviewCount: '{count} reviews',
+
+  // Submit App
+  submitAppTitle: 'Submit New App',
+  appName_field: 'App Name',
+  shortDesc: 'Short Description',
+  shortDescHint: 'Max 120 characters',
+  fullDesc: 'Full Description',
+  fullDescHint: 'Markdown supported',
+  category: 'Category',
+  selectCategory: 'Select category',
+  tags: 'Tags',
+  tagsHint: 'Type a tag and press Enter (max 10)',
+  iconUpload: 'App Icon',
+  screenshotUpload: 'Screenshots',
+  dragOrClick: 'Drag & drop or click to upload',
+  preview: 'Preview',
+  submit: 'Submit',
+  cancel: 'Cancel',
+  next: 'Next',
+  back: 'Back',
+  step: 'Step',
+
+  // Auth
+  email: 'Email',
+  password: 'Password',
+  confirmPassword: 'Confirm Password',
+  displayName: 'Display Name',
+  forgotPassword: 'Forgot password?',
+  noAccount: "Don't have an account?",
+  hasAccount: 'Already have an account?',
+  registerNow: 'Register now',
+  loginNow: 'Login now',
+  verifyEmail: 'Verify Email',
+  verifyEmailMsg: "We've sent a verification email to {email}. Please check your inbox.",
+  resetPassword: 'Reset Password',
+  resetPasswordMsg: 'Enter your email to receive a password reset link.',
+
+  // Footer
+  builtFor: 'Built for the community',
+  aboutVNLF: 'About VNLF',
+  privacyPolicy: 'Privacy Policy',
+  termsOfService: 'Terms of Service',
+
+  // General
+  loading: 'Loading...',
+  error: 'Something went wrong',
+  save: 'Save',
+  delete: 'Delete',
+  confirm: 'Confirm',
+  language: 'Language',
+}
+
+export default en

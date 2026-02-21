@@ -1,0 +1,81 @@
+.browse-title {
+    text-align: center;
+    padding: 30px;
+}
+.browse {
+  padding-bottom: 3rem;
+}
+
+.browse .container {
+  max-width: 100%;
+  padding: 0 3rem;
+}
+
+.browse-header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 2rem 0 1rem;
+}
+
+.browse-count {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* Filters */
+.browse-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Search + selects on one row */
+.browse-filter-row {
+  display: flex;
+  gap: 0.5rem;
+  align-items: stretch;
+}
+
+.browse-filter-row .search-bar {
+  flex: 2;
+  border: 1.5px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 0.25rem 0.25rem 0.25rem 1rem;
+}
+
+.browse-filter-row .search-bar:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-light);
+}
+
+.browse-filter-row select {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Tags */
+.browse-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Empty state reuse from Home */
+.browse .empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+@media (max-width: 640px) {
+  .browse-filter-row {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,65 @@
+.footer {
+  background: var(--bg-footer);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 2.5rem 0 1.5rem;
+  margin-top: auto;
+}
+
+.footer-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.footer-logo {
+  width: 36px;
+  height: 36px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+
+.footer-tagline {
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.875rem;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding-top: 1rem;
+}
+
+.footer-bottom p {
+  font-size: 0.8rem;
+  opacity: 0.6;
+  margin: 0;
+}
