@@ -87,4 +87,4 @@ yarn deploy        # Build & deploy to Cloudflare Pages
 
 ## License
 
-MIT
+GPL-3.0
